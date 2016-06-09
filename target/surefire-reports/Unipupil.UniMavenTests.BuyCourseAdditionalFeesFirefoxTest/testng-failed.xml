@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest">
+        <methods>
+          <include name="totalPaid"/>
+          <include name="paymentOrderHistoryProductName"/>
+          <include name="selectCourse"/>
+          <include name="reviewOrderTotal"/>
+          <include name="completeOrderPageMessage"/>
+          <include name="checkoutTotal"/>
+          <include name="paymentOrderHistoryLinePrice"/>
+          <include name="cartProductUnitPrice"/>
+          <include name="completeOrderTitle"/>
+          <include name="adminLogin"/>
+          <include name="ppLoginPageSummaryAmount"/>
+          <include name="reviewOrderAdditionalFees"/>
+          <include name="ppLoginPageSummaryTotal"/>
+          <include name="ppConfirmPayment"/>
+          <include name="selectInstitution"/>
+          <include name="enterAddressAndContinue"/>
+          <include name="studentLogin"/>
+          <include name="shutdown"/>
+          <include name="studentAccountCourseName"/>
+          <include name="goToCheckout"/>
+          <include name="paymentOrderHistoryTotal"/>
+          <include name="enterStudentLoginDetails"/>
+          <include name="checkAggregateFeesEqualCartSubtotal"/>
+          <include name="paymentOrderHistoryAdditionalFees"/>
+          <include name="reviewOrderSubTotal"/>
+          <include name="displayedTotalCommissionPercent"/>
+          <include name="reviewOrderHeader"/>
+          <include name="checkCartSubTotalAgainstGrossFees"/>
+          <include name="checkoutProductUnitPrice"/>
+          <include name="checkAggregateFeesEqualPaymentOrderHistoryTotal"/>
+          <include name="findInstitution"/>
+          <include name="aggregateFeesEqualReviewOrderSubTotal"/>
+          <include name="reviewOrderLinePrice"/>
+          <include name="agentLogin"/>
+          <include name="checkoutInstitutionTitle"/>
+          <include name="paypalLogin"/>
+          <include name="studentAccountCoursePrice"/>
+          <include name="paymentOrderHistoryUnitPrice"/>
+          <include name="paymentOrderHistoryProductDescription"/>
+          <include name="cartProductName"/>
+          <include name="getCourseFees"/>
+          <include name="cartAdditionalFees"/>
+          <include name="reviewOrderProductUnitPrice"/>
+          <include name="reviewOrderProductName"/>
+          <include name="paymentOrderHistoryHeader"/>
+          <include name="checkAggregateFeesEqualCheckoutTotal"/>
+          <include name="studentAccountAdditionalFeeName"/>
+          <include name="institutionLogout"/>
+          <include name="ppConfirmPageSummaryAmount"/>
+          <include name="checkoutLinePrice"/>
+          <include name="studentAccountAdditionalFee"/>
+          <include name="setup"/>
+          <include name="getCourseList"/>
+          <include name="reviewOrderAdditionalFeesTitle"/>
+          <include name="studentAccountFinishDate"/>
+          <include name="goToHomepage"/>
+          <include name="goToCourseEditPage"/>
+          <include name="enterInstitutionLoginDetails"/>
+          <include name="paymentOrderHistoryPage"/>
+          <include name="checkoutLineProductName"/>
+          <include name="addCourseToCart"/>
+          <include name="goToStudentAccount"/>
+          <include name="studentAccountStartDate"/>
+          <include name="displayedAgentCommissionPercent"/>
+          <include name="checkoutAdditionalFeesTitle"/>
+          <include name="ppConfirmPageSummaryTotal"/>
+          <include name="reviewOrderInstitutionTitle"/>
+          <include name="cartAdditionalFeesTitle"/>
+          <include name="studentAccountAdditionalFeeTotal"/>
+          <include name="checkoutAdditionalFees"/>
+          <include name="submitOrder"/>
+          <include name="cartLinePrice"/>
+          <include name="paymentOrderHistoryQuantity"/>
+          <include name="getCommissionPercentages"/>
+          <include name="agentCommission"/>
+          <include name="institutionLogin"/>
+        </methods>
+      </class> <!-- Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest] -->

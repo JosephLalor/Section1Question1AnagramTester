@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Unipupil.UniMavenTests.FirefoxStudentLoginTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Unipupil.UniMavenTests.FirefoxStudentLoginTest">
+        <methods>
+          <include name="enterDetails"/>
+          <include name="clickLogin"/>
+          <include name="setup"/>
+          <include name="loggedOut"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- Unipupil.UniMavenTests.FirefoxStudentLoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Unipupil.UniMavenTests.FirefoxStudentLoginTest] -->

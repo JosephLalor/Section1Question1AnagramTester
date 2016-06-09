@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest
+-------------------------------------------------------------------------------
+Tests run: 74, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 352.289 sec <<< FAILURE!
+displayedTotalCommissionPercent(Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.displayedTotalCommissionPercent(BuyCourseAdditionalFeesFirefoxTest.java:889)
+

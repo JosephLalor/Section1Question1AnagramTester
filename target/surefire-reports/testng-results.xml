@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="74" passed="70">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest" duration-ms="350412" started-at="2016-06-02T14:48:33Z" finished-at="2016-06-02T14:54:24Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="350412" started-at="2016-06-02T14:48:33Z" finished-at="2016-06-02T14:54:24Z">
+      <class name="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="setup" is-config="true" duration-ms="8010" started-at="2016-06-02T15:48:33Z" finished-at="2016-06-02T15:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="goToHomepage()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="goToHomepage" duration-ms="14924" started-at="2016-06-02T15:48:41Z" finished-at="2016-06-02T15:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomepage -->
+        <test-method status="PASS" signature="institutionLogin()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="institutionLogin" duration-ms="6784" started-at="2016-06-02T15:48:56Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.goToHomepage" finished-at="2016-06-02T15:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- institutionLogin -->
+        <test-method status="PASS" signature="enterInstitutionLoginDetails()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="enterInstitutionLoginDetails" duration-ms="10349" started-at="2016-06-02T15:49:03Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.institutionLogin" finished-at="2016-06-02T15:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInstitutionLoginDetails -->
+        <test-method status="PASS" signature="getCourseList()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="getCourseList" duration-ms="12726" started-at="2016-06-02T15:49:14Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.enterInstitutionLoginDetails" finished-at="2016-06-02T15:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourseList -->
+        <test-method status="PASS" signature="goToCourseEditPage()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="goToCourseEditPage" duration-ms="10254" started-at="2016-06-02T15:49:26Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.getCourseList" finished-at="2016-06-02T15:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCourseEditPage -->
+        <test-method status="PASS" signature="getCourseFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="getCourseFees" duration-ms="1854" started-at="2016-06-02T15:49:37Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.goToCourseEditPage" finished-at="2016-06-02T15:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourseFees -->
+        <test-method status="PASS" signature="institutionLogout()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="institutionLogout" duration-ms="8057" started-at="2016-06-02T15:49:38Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.getCourseFees" finished-at="2016-06-02T15:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- institutionLogout -->
+        <test-method status="PASS" signature="studentLogin()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentLogin" duration-ms="6490" started-at="2016-06-02T15:49:46Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.institutionLogout" finished-at="2016-06-02T15:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentLogin -->
+        <test-method status="PASS" signature="enterStudentLoginDetails()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="enterStudentLoginDetails" duration-ms="11734" started-at="2016-06-02T15:49:53Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentLogin" finished-at="2016-06-02T15:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterStudentLoginDetails -->
+        <test-method status="PASS" signature="findInstitution()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="findInstitution" duration-ms="18933" started-at="2016-06-02T15:50:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.enterStudentLoginDetails" finished-at="2016-06-02T15:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findInstitution -->
+        <test-method status="PASS" signature="selectInstitution()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="selectInstitution" duration-ms="16009" started-at="2016-06-02T15:50:24Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.findInstitution" finished-at="2016-06-02T15:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInstitution -->
+        <test-method status="PASS" signature="selectCourse()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="selectCourse" duration-ms="17688" started-at="2016-06-02T15:50:40Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.selectInstitution" finished-at="2016-06-02T15:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourse -->
+        <test-method status="PASS" signature="addCourseToCart()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="addCourseToCart" duration-ms="33386" started-at="2016-06-02T15:50:57Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.selectCourse" finished-at="2016-06-02T15:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCourseToCart -->
+        <test-method status="PASS" signature="cartProductName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="cartProductName" duration-ms="1770" started-at="2016-06-02T15:51:31Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.addCourseToCart" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartProductName -->
+        <test-method status="PASS" signature="cartProductUnitPrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="cartProductUnitPrice" duration-ms="1" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.cartAdditionalFeesTitle" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartProductUnitPrice -->
+        <test-method status="PASS" signature="cartAdditionalFeesTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="cartAdditionalFeesTitle" duration-ms="0" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.cartProductName" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartAdditionalFeesTitle -->
+        <test-method status="PASS" signature="cartLinePrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="cartLinePrice" duration-ms="1" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.cartProductUnitPrice" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartLinePrice -->
+        <test-method status="PASS" signature="cartAdditionalFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="cartAdditionalFees" duration-ms="1" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.cartLinePrice" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartAdditionalFees -->
+        <test-method status="PASS" signature="checkCartSubTotalAgainstGrossFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkCartSubTotalAgainstGrossFees" duration-ms="1" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.cartAdditionalFees" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartSubTotalAgainstGrossFees -->
+        <test-method status="PASS" signature="checkAggregateFeesEqualCartSubtotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkAggregateFeesEqualCartSubtotal" duration-ms="0" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkCartSubTotalAgainstGrossFees" finished-at="2016-06-02T15:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAggregateFeesEqualCartSubtotal -->
+        <test-method status="PASS" signature="goToCheckout()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="goToCheckout" duration-ms="7886" started-at="2016-06-02T15:51:32Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkAggregateFeesEqualCartSubtotal" finished-at="2016-06-02T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCheckout -->
+        <test-method status="PASS" signature="checkoutLineProductName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutLineProductName" duration-ms="1779" started-at="2016-06-02T15:51:40Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.goToCheckout" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutLineProductName -->
+        <test-method status="PASS" signature="checkoutAdditionalFeesTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutAdditionalFeesTitle" duration-ms="1" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutLineProductName" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutAdditionalFeesTitle -->
+        <test-method status="PASS" signature="checkoutInstitutionTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutInstitutionTitle" duration-ms="67" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutAdditionalFeesTitle" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInstitutionTitle -->
+        <test-method status="PASS" signature="checkoutProductUnitPrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutProductUnitPrice" duration-ms="104" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutInstitutionTitle" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProductUnitPrice -->
+        <test-method status="PASS" signature="checkoutLinePrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutLinePrice" duration-ms="1" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutProductUnitPrice" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutLinePrice -->
+        <test-method status="PASS" signature="checkoutAdditionalFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutAdditionalFees" duration-ms="1" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutLinePrice" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutAdditionalFees -->
+        <test-method status="PASS" signature="checkoutTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkoutTotal" duration-ms="0" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutAdditionalFees" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTotal -->
+        <test-method status="PASS" signature="checkAggregateFeesEqualCheckoutTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkAggregateFeesEqualCheckoutTotal" duration-ms="0" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkoutTotal" finished-at="2016-06-02T15:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAggregateFeesEqualCheckoutTotal -->
+        <test-method status="PASS" signature="enterAddressAndContinue()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="enterAddressAndContinue" duration-ms="20848" started-at="2016-06-02T15:51:42Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkAggregateFeesEqualCheckoutTotal" finished-at="2016-06-02T15:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressAndContinue -->
+        <test-method status="PASS" signature="reviewOrderHeader()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderHeader" duration-ms="1798" started-at="2016-06-02T15:52:03Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.enterAddressAndContinue" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderHeader -->
+        <test-method status="PASS" signature="reviewOrderProductName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderProductName" duration-ms="1" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderHeader" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderProductName -->
+        <test-method status="PASS" signature="reviewOrderAdditionalFeesTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderAdditionalFeesTitle" duration-ms="0" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderProductName" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderAdditionalFeesTitle -->
+        <test-method status="PASS" signature="reviewOrderInstitutionTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderInstitutionTitle" duration-ms="76" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderAdditionalFeesTitle" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderInstitutionTitle -->
+        <test-method status="PASS" signature="reviewOrderProductUnitPrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderProductUnitPrice" duration-ms="119" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderInstitutionTitle" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderProductUnitPrice -->
+        <test-method status="PASS" signature="reviewOrderLinePrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderLinePrice" duration-ms="1" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderProductUnitPrice" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderLinePrice -->
+        <test-method status="PASS" signature="reviewOrderAdditionalFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderAdditionalFees" duration-ms="0" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderLinePrice" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderAdditionalFees -->
+        <test-method status="PASS" signature="reviewOrderSubTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderSubTotal" duration-ms="1" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderAdditionalFees" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderSubTotal -->
+        <test-method status="PASS" signature="reviewOrderTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="reviewOrderTotal" duration-ms="0" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderSubTotal" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOrderTotal -->
+        <test-method status="PASS" signature="aggregateFeesEqualReviewOrderSubTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="aggregateFeesEqualReviewOrderSubTotal" duration-ms="0" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.reviewOrderTotal" finished-at="2016-06-02T15:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aggregateFeesEqualReviewOrderSubTotal -->
+        <test-method status="PASS" signature="submitOrder()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="submitOrder" duration-ms="13889" started-at="2016-06-02T15:52:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.aggregateFeesEqualReviewOrderSubTotal" finished-at="2016-06-02T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="ppLoginPageSummaryAmount()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="ppLoginPageSummaryAmount" duration-ms="139" started-at="2016-06-02T15:52:19Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.submitOrder" finished-at="2016-06-02T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ppLoginPageSummaryAmount -->
+        <test-method status="PASS" signature="ppLoginPageSummaryTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="ppLoginPageSummaryTotal" duration-ms="0" started-at="2016-06-02T15:52:19Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.ppLoginPageSummaryAmount" finished-at="2016-06-02T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ppLoginPageSummaryTotal -->
+        <test-method status="PASS" signature="paypalLogin()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paypalLogin" duration-ms="10818" started-at="2016-06-02T15:52:19Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.ppLoginPageSummaryTotal" finished-at="2016-06-02T15:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paypalLogin -->
+        <test-method status="PASS" signature="ppConfirmPageSummaryAmount()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="ppConfirmPageSummaryAmount" duration-ms="0" started-at="2016-06-02T15:52:30Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paypalLogin" finished-at="2016-06-02T15:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ppConfirmPageSummaryAmount -->
+        <test-method status="PASS" signature="ppConfirmPageSummaryTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="ppConfirmPageSummaryTotal" duration-ms="0" started-at="2016-06-02T15:52:30Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.ppConfirmPageSummaryAmount" finished-at="2016-06-02T15:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ppConfirmPageSummaryTotal -->
+        <test-method status="PASS" signature="ppConfirmPayment()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="ppConfirmPayment" duration-ms="26014" started-at="2016-06-02T15:52:30Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.ppConfirmPageSummaryTotal" finished-at="2016-06-02T15:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ppConfirmPayment -->
+        <test-method status="PASS" signature="completeOrderTitle()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="completeOrderTitle" duration-ms="392" started-at="2016-06-02T15:52:56Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.ppConfirmPayment" finished-at="2016-06-02T15:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrderTitle -->
+        <test-method status="PASS" signature="completeOrderPageMessage()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="completeOrderPageMessage" duration-ms="1" started-at="2016-06-02T15:52:56Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.completeOrderTitle" finished-at="2016-06-02T15:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrderPageMessage -->
+        <test-method status="PASS" signature="paymentOrderHistoryPage()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryPage" duration-ms="6793" started-at="2016-06-02T15:52:56Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.completeOrderPageMessage" finished-at="2016-06-02T15:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryPage -->
+        <test-method status="PASS" signature="paymentOrderHistoryHeader()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryHeader" duration-ms="1980" started-at="2016-06-02T15:53:03Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryPage" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryHeader -->
+        <test-method status="PASS" signature="paymentOrderHistoryProductName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryProductName" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryHeader" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryProductName -->
+        <test-method status="PASS" signature="paymentOrderHistoryProductDescription()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryProductDescription" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryProductName" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryProductDescription -->
+        <test-method status="PASS" signature="paymentOrderHistoryUnitPrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryUnitPrice" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryProductDescription" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryUnitPrice -->
+        <test-method status="PASS" signature="paymentOrderHistoryLinePrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryLinePrice" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryQuantity" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryLinePrice -->
+        <test-method status="PASS" signature="paymentOrderHistoryQuantity()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryQuantity" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryUnitPrice" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryQuantity -->
+        <test-method status="PASS" signature="paymentOrderHistoryAdditionalFees()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryAdditionalFees" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryLinePrice" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryAdditionalFees -->
+        <test-method status="PASS" signature="paymentOrderHistoryTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="paymentOrderHistoryTotal" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryAdditionalFees" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOrderHistoryTotal -->
+        <test-method status="PASS" signature="checkAggregateFeesEqualPaymentOrderHistoryTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="checkAggregateFeesEqualPaymentOrderHistoryTotal" duration-ms="0" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.paymentOrderHistoryTotal" finished-at="2016-06-02T15:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAggregateFeesEqualPaymentOrderHistoryTotal -->
+        <test-method status="PASS" signature="goToStudentAccount()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="goToStudentAccount" duration-ms="10185" started-at="2016-06-02T15:53:05Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.checkAggregateFeesEqualPaymentOrderHistoryTotal" finished-at="2016-06-02T15:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToStudentAccount -->
+        <test-method status="PASS" signature="studentAccountCourseName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountCourseName" duration-ms="2907" started-at="2016-06-02T15:53:15Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.goToStudentAccount" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountCourseName -->
+        <test-method status="PASS" signature="studentAccountStartDate()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountStartDate" duration-ms="1" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountCourseName" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountStartDate -->
+        <test-method status="PASS" signature="studentAccountFinishDate()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountFinishDate" duration-ms="0" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountStartDate" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountFinishDate -->
+        <test-method status="PASS" signature="studentAccountAdditionalFee()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountAdditionalFee" duration-ms="1" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountAdditionalFeeName" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountAdditionalFee -->
+        <test-method status="PASS" signature="studentAccountCoursePrice()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountCoursePrice" duration-ms="0" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountFinishDate" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountCoursePrice -->
+        <test-method status="PASS" signature="studentAccountAdditionalFeeName()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountAdditionalFeeName" duration-ms="0" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountCoursePrice" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountAdditionalFeeName -->
+        <test-method status="PASS" signature="studentAccountAdditionalFeeTotal()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="studentAccountAdditionalFeeTotal" duration-ms="0" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountAdditionalFee" finished-at="2016-06-02T15:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAccountAdditionalFeeTotal -->
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="adminLogin" duration-ms="28334" started-at="2016-06-02T15:53:18Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.studentAccountAdditionalFeeTotal" finished-at="2016-06-02T15:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="getCommissionPercentages()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="getCommissionPercentages" duration-ms="4244" started-at="2016-06-02T15:53:47Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.adminLogin" finished-at="2016-06-02T15:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommissionPercentages -->
+        <test-method status="PASS" signature="agentLogin()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="agentLogin" duration-ms="32924" started-at="2016-06-02T15:53:51Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.getCommissionPercentages" finished-at="2016-06-02T15:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentLogin -->
+        <test-method status="FAIL" signature="displayedTotalCommissionPercent()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="displayedTotalCommissionPercent" duration-ms="1" started-at="2016-06-02T15:54:24Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.agentLogin" finished-at="2016-06-02T15:54:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.displayedTotalCommissionPercent(BuyCourseAdditionalFeesFirefoxTest.java:889)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayedTotalCommissionPercent -->
+        <test-method status="SKIP" signature="displayedAgentCommissionPercent()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="displayedAgentCommissionPercent" duration-ms="0" started-at="2016-06-02T15:54:24Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.displayedTotalCommissionPercent" finished-at="2016-06-02T15:54:24Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method BuyCourseAdditionalFeesFirefoxTest.displayedAgentCommissionPercent()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method BuyCourseAdditionalFeesFirefoxTest.displayedAgentCommissionPercent()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayedAgentCommissionPercent -->
+        <test-method status="SKIP" signature="agentCommission()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="agentCommission" duration-ms="0" started-at="2016-06-02T15:54:24Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.displayedAgentCommissionPercent" finished-at="2016-06-02T15:54:24Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method BuyCourseAdditionalFeesFirefoxTest.agentCommission()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method BuyCourseAdditionalFeesFirefoxTest.agentCommission()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agentCommission -->
+        <test-method status="SKIP" signature="totalPaid()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="totalPaid" duration-ms="0" started-at="2016-06-02T15:54:24Z" depends-on-methods="Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest.agentCommission" finished-at="2016-06-02T15:54:24Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method BuyCourseAdditionalFeesFirefoxTest.totalPaid()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method BuyCourseAdditionalFeesFirefoxTest.totalPaid()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalPaid -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest@5dfcfece]" name="shutdown" is-config="true" duration-ms="0" started-at="2016-06-02T15:54:24Z" finished-at="2016-06-02T15:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Unipupil.UniMavenTests.BuyCourseAdditionalFeesFirefoxTest -->
+</testng-results>
