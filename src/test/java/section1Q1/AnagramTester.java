@@ -19,7 +19,6 @@ public class AnagramTester
 	{
 		System.out.println("AnagramTester starting");
 		
-		
 		Hashtable<Object,String> wordPairs = new Hashtable<Object,String>();
 		Enumeration<Object> firstWords; // ensures only supplied first words are used in test
 		
@@ -50,8 +49,6 @@ public class AnagramTester
 	 */
 	public static String areAnagrams(Object first, String second) 
 	{
-		System.out.println("Method 'areAnagrams' running");
-		
 		// Default message
 		String message = "'"+ (String)first + "' and '" + second + "' are not anagrams";
 		String regex = "[\\s,'!?.-]+"; // Regular expression for stripping spaces and punctuation
@@ -61,7 +58,6 @@ public class AnagramTester
 		// Make all letters lower case, then strip out punctuation and spaces
 		String s1 =  ((String)first).toLowerCase().replaceAll(regex,"");
 		String s2 = second.toLowerCase().replaceAll(regex,"");
-		System.out.println(s1+","+s2);
 		
 		if(s1.length() == s2.length()) // Strings cannot be anagrams if of different lengths
 		{
@@ -71,7 +67,6 @@ public class AnagramTester
 			Arrays.sort(array2);
 			s1 = new String(array1);
 			s2 = new String(array2);
-			System.out.println(s1+","+s2);
 			if(s1.equals(s2))  // sorted character arrays compared
 			{
 				message = "'"+(String)first + "' and '" + second + "' are anagrams"; 
